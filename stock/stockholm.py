@@ -34,7 +34,7 @@ class Stockholm(object):
         ## thread number
         self.thread = args.thread
         ## data file store path
-        if(args.store_path == 'USER_HOME/tmp/stockholm_export'):
+        if(args.store_path == 'USER_HOMEcd/tmp/stockholm_export'):
             self.export_folder = os.path.expanduser('~') + '/tmp/stockholm_export'
         else:
             self.export_folder = args.store_path
